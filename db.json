@@ -1,0 +1,20 @@
+{
+  "recipes": [
+    {
+      "plate": "Carbonara",
+      "description": "Carbonara is an Italian pasta dish originating from Lazio, specifically Rome. The original recipe is based on egg yolks, cheese (Pecorino Romano), guanciale, and black pepper.",
+      "image": "https://images.pexels.com/photos/998246/pexels-photo-998246.jpeg",
+      "ingredients": "Spaghetti (170 g), Parmesan Cheese (50 g), Egg Yolk (2), Ground Black Pepper to taste, Pancetta (100 g).",
+      "recipe": "Start by boiling 170g of spaghetti until al dente. In a bowl, whisk together 2 egg yolks and 50g of grated Parmesan cheese until you have a creamy mixture. In a pan, crisp up 100g of pancetta. Once the spaghetti is cooked, drain it and toss it into the pan with the pancetta. Off the heat, quickly stir in the egg and Parmesan mixture, ensuring the spaghetti gets coated evenly. Finish it off with a generous sprinkle of freshly ground black pepper. Serve immediately for a simple yet indulgent homemade carbonara!",
+      "id": "f8rf"
+    },
+    {
+      "id": "d7ab",
+      "plate": "Stew",
+      "description": "A hearty stew simmering on the stove, featuring tender chunks of meat, colorful vegetables, and savory spices, creating a flavorful and comforting one-pot dish.",
+      "image": "https://images.pexels.com/photos/6752350/pexels-photo-6752350.jpeg",
+      "ingredients": "Beef or chicken chunks (1 pound), potatoes (4), carrots (3), onion (1), garlic (3 cloves), beef or vegetable broth (4 cups), diced or crushed tomatoes (1 can), salt, pepper, dried thyme (1 teaspoon), rosemary (1 teaspoon), or bay leaves (2-3), olive oil (2 tablespoons).",
+      "recipe": "Sauté chopped onion and minced garlic in olive oil. Brown beef or chicken, add diced potatoes, sliced carrots, broth, diced tomatoes, and season with salt, pepper, thyme, rosemary, and bay leaves. Simmer covered for 30-40 minutes. Adjust seasoning, remove bay leaves, and serve. Enjoy a quick and hearty stew!"
+    }
+  ]
+}

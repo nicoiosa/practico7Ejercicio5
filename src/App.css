@@ -1,0 +1,28 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.myMain {
+  flex-grow: 1;
+}
+.bg {
+  background-color: #8b152b;
+}
+.img-thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.img-banner {
+  object-fit: cover;
+  height: 395px;
+  width: 100%;
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

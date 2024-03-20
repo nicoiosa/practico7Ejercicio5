@@ -39,7 +39,6 @@ const ItemRecipe = ({ recipe, setRecipes }) => {
   };
   return (
     <tr>
-      <td>{recipe._id}</td>
       <td>{recipe.plate}</td>
       <td>
         <p className="line-clamp">{recipe.description}</p>

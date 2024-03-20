@@ -19,7 +19,7 @@ const List = () => {
       <h5 className="display-4">Our Recipes</h5>
       <hr />
       <div className="row row-gap-4">
-        {recipes.map((recipe)=> <CardRecipe key={recipe.id} recipe={recipe} />)}
+        {recipes.map((recipe)=> <CardRecipe key={recipe._id} recipe={recipe} />)}
         
       </div>
     </Container>

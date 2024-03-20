@@ -15,7 +15,7 @@ const ItemRecipe = ({ recipe, setRecipes }) => {
       confirmButtonText: "Delete it!",
     }).then(async (result) => {
       if (result.isConfirmed) {
-        const response = await dltRecipeAPI(recipe.id);
+        const response = await dltRecipeAPI(recipe._id);
         if (response.status === 200) {
           Swal.fire({
             title: "Deleted!",
@@ -39,7 +39,7 @@ const ItemRecipe = ({ recipe, setRecipes }) => {
   };
   return (
     <tr>
-      <td>{recipe.id}</td>
+      <td>{recipe._id}</td>
       <td>{recipe.plate}</td>
       <td>
         <p className="line-clamp">{recipe.description}</p>
@@ -60,7 +60,7 @@ const ItemRecipe = ({ recipe, setRecipes }) => {
       <td className="text-center">
         <Link
           className="btn btn-warning mb-lg-2"
-          to={"/admin/edit/" + recipe.id}
+          to={"/admin/edit/" + recipe._id}
         >
           <i className="bi bi-pencil-square"></i>
         </Link>

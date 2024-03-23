@@ -16,12 +16,22 @@ Welcome to Rolling Food, your go-to destination for mouthwatering recipes that a
 
 To get started with the Rolling Food blog on your local machine, follow these steps:
 
-```bash
-git clone https://github.com/your-username/rolling-food-blog.git
-cd rolling-food-blog
-npm install
-npm start
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nicoiosa/practico7Ejercicio5.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd practico7Ejercicio5
+   
+3. Install dependencies:
+   ```bash
+   npm install
+   
+4. Start the server:
+   ```bash
+   npm start
+   
 The blog should now be accessible at http://localhost:3000 in your browser.
 
 ## Features

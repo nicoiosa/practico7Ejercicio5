@@ -31,8 +31,6 @@ To get started with the Rolling Food blog on your local machine, follow these st
 4. Start the server:
    ```bash
    npm start
-   
-The blog should now be accessible at http://localhost:3000 in your browser.
 
 ## Features
 
